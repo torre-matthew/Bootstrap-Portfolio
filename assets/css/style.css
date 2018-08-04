@@ -15,12 +15,14 @@ body {
 .navbar {
 	background-color: #F5F5F5;
 	border-bottom: 4px solid #48582d;
+	height: 80px;
 }
 
 img {
 	width: 200px;
 	height: 185px;
 	float:left;
+	margin-right: 20px;
 	margin-bottom: 10px;
 }
 
