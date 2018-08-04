@@ -21,7 +21,6 @@ img {
 	width: 200px;
 	height: 185px;
 	float:left;
-	margin-right: 20px;
 	margin-bottom: 10px;
 }
 
@@ -29,7 +28,8 @@ img {
 	border: 3px solid #48582d;
 	background-color: #F5F5F5; 
 	margin-top: 30px;
-	/*clear: both;*/
+	margin-bottom: 100px;
+	clear: both;
 }
 
 header {
@@ -48,6 +48,23 @@ header {
 
 }
 
+.imgdiv {
+	position: relative;
+
+}
+
+div > p {
+	width: 200px;
+	text-align: center;
+	background-color: #9bb26c; 
+	position: absolute;
+	bottom: 3px;	
+}
+
+button {
+	margin-bottom: 10px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -57,6 +74,6 @@ header {
   line-height: 60px; /* Vertically center the text there */
   background-color: #9499a5;
   text-align: center;
-  border-top: 4px solid #9bb26c; 
+  border-top: 4px solid #9bb26c;
 }
 
