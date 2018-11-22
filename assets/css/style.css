@@ -8,6 +8,33 @@ body {
     flex: 1 0 auto;
   }
 
+  .intro {
+	  background-color: #0E1C3B;
+	  line-height: 20px;
+	  height: 100vh;
+  }
+
+.intro > .row > .col > h4 {
+	color: white;
+	line-height: 5px;
+}
+
+  #my-name {
+	  color: #fa8072;
+  }
+
+.about-me {
+	height: 100vh;
+}
+
+.projects {
+	height: 100vh;
+}
+
+.contact {
+	height: 100vh;
+}
+
 
 
 
