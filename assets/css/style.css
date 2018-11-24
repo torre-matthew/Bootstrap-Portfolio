@@ -1,12 +1,14 @@
 body {
     display: flex;
-    min-height: 100vh;
+	min-height: 100vh;
+	width: 100vw;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
   }
 
   main {
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
   }
 
   nav {
@@ -16,23 +18,32 @@ body {
 
   .intro {
 	  background-color: #0f2147;
-	  line-height: 20px;
-	  height: 100vh;
-	  position: relative;
+	  min-height: 100vh;
+	  height: auto;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
   }
 
 .intro > .row > .col > p {
 	font-size: 32px;
 	font-weight: bold;
 	color: white;
-	line-height: 5px;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	margin: 0;
+}
+
+.intro > .row > .col > a {
+	background-color: transparent;
+	border: 2px solid white;
 	position: absolute;
-    top: 50%;
-	left: 65%;
-	width: 100%;
-    transform: translate(-50%, -50%);
+	left: 45%;
+	margin-top: 20px;
+}
+
+.intro > .row > .col > a:hover {
+	background-color: #b13362;
+	border: 2px solid #b13362;
 }
 
   #my-name {
@@ -40,16 +51,30 @@ body {
   }
 
 .about-me {
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 }
 
 .projects {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #f5f5f5;
+	height: auto;
+}
+
+section.contact {
+	/* position: relative; */
+}
+
+section.contact > form {
+	/* position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%; */
 }
 
 .contact {
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	background-color: #1B3C81;
 }
 
@@ -57,9 +82,33 @@ body {
 	background-color: #54b5c5;
 }
 
+.tabs .tab a {
+	color: black;
+}
 
+.tabs .tab a:hover {
+	color: #DE9C2B;
+}
 
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	color: #DE9C2B;
+	background-color: #b13362;
+}
 
+img {
+	height: 280px;
+	width: 300px;
+}
+
+.proj-desc {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px) {
+
+}
 
 
 
