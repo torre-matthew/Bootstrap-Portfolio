@@ -97,13 +97,17 @@ section.contact > form {
 
 img {
 	height: 280px;
-	width: 300px;
+	width: 500px;
 }
 
 .proj-desc {
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 35px;
+}
+
+.activator {
+	cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
